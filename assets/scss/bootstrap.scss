@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Courier New', Courier, monospace;
+  /*tira todos os estilos da letra (ex: sublinhado)*/
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-image: url(../images/bolha-background.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.container {
+  width: 1024px;
+  margin: 30px auto; /*centraliza o header, os lados terão margem automática*/
+  display: flex;
+  flex-direction: column; /*um embaixo do outro*/
+}
+
+.row{
+  display: flex; /*(coloca os elementos lado a lado)*/
+  flex-direction: row; /*deixa os elementos em linha*/;
+}
